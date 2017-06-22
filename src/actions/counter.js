@@ -1,9 +1,11 @@
+import { INCREASE_COUNTER, DECREASE_COUNTER } from '../constants/actiontypes'
+
 const increaseCounter = {
-  type: 'INCREASE',
+  type: INCREASE_COUNTER,
 }
 
 const decreaseCounter = {
-  type: 'DECREASE',
+  type: DECREASE_COUNTER,
 }
 
 export {
