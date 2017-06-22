@@ -28,7 +28,6 @@ class App extends Component {
           <div className="column">
             <h2 className="subtitle">Left Counter</h2>
             <LeftCounter
-              counter={this.state.counter}
               increaseCounter={this.increaseCounter}
               decreaseCounter={this.decreaseCounter}
             />
@@ -36,7 +35,6 @@ class App extends Component {
           <div className="column">
             <h2 className="subtitle">Right Counter</h2>
             <RightCounter
-              counter={this.state.counter}
               increaseCounter={this.increaseCounter}
               decreaseCounter={this.decreaseCounter}
             />

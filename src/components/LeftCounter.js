@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
 
 class LeftCounter extends Component {
   render() {
@@ -12,4 +13,10 @@ class LeftCounter extends Component {
   }
 }
 
-export default LeftCounter
+const mapStateToProps = state => ({
+  counter: state.counter,
+})
+
+export default connect(
+  mapStateToProps,
+)(LeftCounter)
