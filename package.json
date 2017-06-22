@@ -11,7 +11,11 @@
     "type": "git",
     "url": "https://gitlab.thinknet.co.th/kunapot/redux-workshop"
   },
-  "keywords": ["redux", "react", "redux workshop"],
+  "keywords": [
+    "redux",
+    "react",
+    "redux workshop"
+  ],
   "author": "kunapot",
   "license": "ISC",
   "dependencies": {
@@ -23,6 +27,8 @@
     "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.0",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
   }
