@@ -1,4 +1,3 @@
-import { combineReducers } from 'redux'
 import { INCREASE_COUNTER, DECREASE_COUNTER } from '../constants/actiontypes'
 
 const counter = (state = 5, action) => {
@@ -14,8 +13,4 @@ const counter = (state = 5, action) => {
   }
 }
 
-const rootReducer = combineReducers({
-  counter: counter,
-})
-
-export default rootReducer
+export default counter
