@@ -1,16 +1,16 @@
 # Redux Counter Workshop #
 
-### To start project ### 
+## To start project ##
 
 `npm run dev || yarn dev`
 
 go to http://localhost:8081
 
-###  Starter project ### 
+## Starter project ##
 
 This is counter application. It's need to imporve with redux.
 
-###  Guideline ### 
+##  Guideline ##
 
 Step 1: create reducer and store
 
