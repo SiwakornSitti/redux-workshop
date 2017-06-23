@@ -19,11 +19,11 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  increaseCounter: () => dispatch(increaseCounter),
-  decreaseCounter: () => dispatch(decreaseCounter),
+  increaseCounter: () => dispatch(increaseCounter()),
+  decreaseCounter: () => dispatch(decreaseCounter()),
 })
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps,
+  { increaseCounter, decreaseCounter },
 )(LeftCounter)
