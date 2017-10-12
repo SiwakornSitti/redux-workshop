@@ -7,7 +7,10 @@ const counter = (state = 5, action) => {
 
     case DECREASE_COUNTER:
       return state - 1
-  
+    
+    case 'ADD_COUNTER':
+      return state + action.num;
+    
     default:
       return state
   }
